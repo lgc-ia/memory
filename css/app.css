@@ -47,7 +47,7 @@ body{
   display:flex; align-items:center; justify-content:center;
   background:radial-gradient(circle at 30% 0%, rgba(255,255,255,.15), rgba(255,255,255,.04));
 }
-.brandtxt .h{font-weight:900;}
+.brandtxt .h{font-weight:900; font-size: 19px;}
 .brandtxt .p{color:var(--muted); font-size:12px; margin-top:2px; line-height:1.3;}
 
 .levels{

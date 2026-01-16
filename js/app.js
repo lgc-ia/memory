@@ -63,7 +63,7 @@ function render(state){
     back.className = "face back";
 
     const tag = (c.type === "upper") ? "MAJUSCULE"
-      : (c.type === "lower") ? "MINUSCULE"
+      : (c.type === "lower") ? "minuscule"
       : (c.type === "image") ? "IMAGE"
       : "MOT";
 
