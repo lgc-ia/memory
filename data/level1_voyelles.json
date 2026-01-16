@@ -1,0 +1,15 @@
+{
+  "id": "level1_voyelles",
+  "title": "Niveau 1 — Voyelles (MAJ ↔ min)",
+  "mode": "case_match",
+  "pickCount": 6,
+  "description": "Voyelles uniquement. Associer majuscule et minuscule.",
+  "items": [
+    { "pairId": "A", "upper": "A", "lower": "a", "audio": "letters/a.wav" },
+    { "pairId": "E", "upper": "E", "lower": "e", "audio": "letters/e.wav" },
+    { "pairId": "I", "upper": "I", "lower": "i", "audio": "letters/i.wav" },
+    { "pairId": "O", "upper": "O", "lower": "o", "audio": "letters/o.wav" },
+    { "pairId": "U", "upper": "U", "lower": "u", "audio": "letters/u.wav" },
+    { "pairId": "Y", "upper": "Y", "lower": "y", "audio": "letters/y.wav" }
+  ]
+}

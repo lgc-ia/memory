@@ -1,0 +1,19 @@
+{
+  "id": "level3_syllabes_simples",
+  "title": "Niveau 3 — Syllabes simples (CV / VC) MAJ ↔ min",
+  "mode": "syllable_case_match",
+  "pickCount": 9,
+  "description": "Syllabes simples générées (consonne+voyelle ou voyelle+consonne). Associer MAJ ↔ min.",
+  "audio": {
+    "enabled": true,
+    "baseDir": "syllables",
+    "ext": "wav"
+  },
+  "generate": {
+    "vowels": ["a","e","i","o","u"],
+    "consonants": ["m","n","p","t","l","r","s"],
+    "patterns": ["CV", "VC"],
+    "exclude": []
+  }
+}
+

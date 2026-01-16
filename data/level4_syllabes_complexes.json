@@ -1,0 +1,38 @@
+{
+  "id": "level4_syllabes_complexes",
+  "title": "Niveau 4 — Syllabes complexes (digrammes / graphèmes) MAJ ↔ min",
+  "mode": "syllable_case_match",
+  "pickCount": 9,
+  "description": "Digrammes + groupes consonantiques + voyelles complexes/nasales (ASCII, sans accents).",
+  "audio": { "enabled": true, "baseDir": "syllables", "ext": "wav" },
+
+  "generate": {
+    "patterns": ["ON", "NO"],
+
+    "onsets": [
+      "ch","ph","gn","qu",
+      "tr","dr","br","cr","fr","gr","pr","vr",
+      "pl","bl","cl","fl","gl",
+      "sp","st","sk"
+    ],
+
+    "nuclei": [
+      "a","e","i","o","u",
+      "ou","ai","oi","ui","au","eau",
+      "an","en","in","un","on",
+      "ain","ein","oin",
+      "eu",
+      "ien","ion",
+      "ill"
+    ],
+
+    "codas": ["n","m","r","l","s"],
+
+    "exclude": [
+      "quu","quou",
+      "eauill","illn","illm",
+      "ienen","ienin","ienun","ienon",
+      "ioneau","ionill"
+    ]
+  }
+}

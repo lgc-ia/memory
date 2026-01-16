@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Parcours Memory</title>
+  <link rel="stylesheet" href="./css/app.css" />
+</head>
+<body>
+  <div class="layout">
+    <aside class="sidebar">
+      <div class="brand">
+        <div class="logo">🧩</div>
+        <div class="brandtxt">
+          <div class="h">Parcours Memory</div>
+          <div class="p">CAP – MAJ/min, syllabes, image↔mot</div>
+        </div>
+      </div>
+
+      <nav class="levels" id="levels" aria-label="Niveaux">
+        <!-- boutons injectés par JS -->
+      </nav>
+
+      <div class="sideControls">
+        <div class="row">
+          <label class="lbl" for="pickCount">Tirage</label>
+          <select id="pickCount">
+            <option value="6">6 paires</option>
+            <option value="9" selected>9 paires</option>
+            <option value="12">12 paires</option>
+            <option value="15">15 paires</option>
+          </select>
+        </div>
+
+        <div class="btnRow">
+          <button id="newGameBtn">🔄 Nouvelle partie</button>
+          <button id="revealBtn" title="Aperçu 2 secondes">👀 Aperçu</button>
+        </div>
+
+        <div class="btnRow">
+          <button id="muteBtn">🔊 Son : ON</button>
+        </div>
+
+        <div class="stats">
+          <span class="pill">Coups: <b id="moves">0</b></span>
+          <span class="pill">Paires: <b id="pairs">0</b>/<span id="pairsTotal">0</span></span>
+        </div>
+
+        <div class="mini" id="hint"></div>
+      </div>
+    </aside>
+
+    <main class="main">
+      <header class="topbar">
+        <div class="title">
+          <h1 id="title">Niveau 1</h1>
+          <p id="subtitle">…</p>
+        </div>
+      </header>
+
+      <section class="panel">
+        <div id="board" class="board" aria-label="Plateau de jeu"></div>
+      </section>
+    </main>
+  </div>
+
+  <div id="toast" class="toast" aria-live="polite"></div>
+
+  <!-- Un seul point d’entrée module -->
+  <script type="module" src="./js/app.js"></script>
+</body>
+</html>
