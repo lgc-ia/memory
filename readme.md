@@ -29,7 +29,10 @@ CODE COULEURS
                   ge, gi, gy
 
 
+```
+## Tester en localhost
 
+```
 
     - python -m http.server 8000
     - http://localhost:8000/
