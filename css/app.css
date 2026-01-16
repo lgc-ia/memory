@@ -102,6 +102,12 @@ select, button{
   letter-spacing:.2px;
   /* user-select:none; */
 }
+button .icon{
+  font-size:18px;
+  line-height:1;
+  vertical-align:-3px;
+  margin-right:6px;
+}
 button:hover, select:hover{background:rgba(255,255,255,.10)}
 button:active{transform:translateY(1px)}
 
