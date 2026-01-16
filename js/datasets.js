@@ -114,7 +114,7 @@ export const LEVELS = [
   {
     id: "level1",
     title: "Niveau 1 — Voyelles",
-    subtitle: "Associer MAJ ↔ min (A E I O U Y).",
+    subtitle: "Associer MAJ : min (A E I O U Y).",
     hint: "Audio optionnel : assets/audio/letters/a.wav …",
     mode: "case_match",
     pickDefault: 6,
@@ -124,7 +124,7 @@ export const LEVELS = [
   {
     id: "level2",
     title: "Niveau 2 — Alphabet",
-    subtitle: "Associer MAJ ↔ min (tirage aléatoire).",
+    subtitle: "Associer MAJ : min (tirage aléatoire).",
     hint: "Audio optionnel : assets/audio/letters/r.wav …",
     mode: "case_match",
     pickDefault: 9,
@@ -134,7 +134,7 @@ export const LEVELS = [
   {
     id: "level3",
     title: "Niveau 3 — Syllabes simples",
-    subtitle: "CV / VC (ex : ra / ar) – MAJ ↔ min.",
+    subtitle: "CV / VC (ex : ra / ar) – MAJ :min.",
     hint: "Audio auto : assets/audio/syllables/ra.wav, ar.wav, etc.",
     mode: "syllable_case_match",
     pickDefault: 9,
@@ -164,8 +164,8 @@ export const LEVELS = [
   },
   {
     id: "level5",
-    title: "Niveau 5 — Image ↔ Mot (facile)",
-    subtitle: "Associer image claire ↔ mot simple.",
+    title: "Niveau 5 — Image :Mot (facile)",
+    subtitle: "Associer image claire :mot simple.",
     hint: "À compléter : items [{pairId, word, image, audio?}]",
     mode: "image_word",
     pickDefault: 9,
@@ -176,7 +176,7 @@ export const LEVELS = [
   },
   {
     id: "level6",
-    title: "Niveau 6 — Image ↔ Mot (difficile)",
+    title: "Niveau 6 — Image :Mot (difficile)",
     subtitle: "Mots plus difficiles (graphies proches, pièges…).",
     hint: "À compléter : items [{pairId, word, image, audio?}]",
     mode: "image_word",
