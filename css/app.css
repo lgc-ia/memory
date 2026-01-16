@@ -246,3 +246,9 @@ button:active{transform:translateY(1px)}
   text-align:center;
 }
 .toast.show{opacity:1; transform:translateX(-50%) translateY(-2px);}
+
+footer > p {
+  text-align: center;
+  color: var(--muted);
+  font-size: 12px;
+}

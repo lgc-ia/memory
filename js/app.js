@@ -7,6 +7,7 @@ const boardEl = document.getElementById("board");
 const titleEl = document.getElementById("title");
 const subtitleEl = document.getElementById("subtitle");
 const hintEl = document.getElementById("hint");
+const yearEl = document.getElementById("year");
 
 const movesEl = document.getElementById("moves");
 const pairsEl = document.getElementById("pairs");
@@ -182,3 +183,5 @@ muteBtn.addEventListener("click", () => {
 buildNav();
 syncMuteBtn();
 rebuildEngine();
+
+if(yearEl) yearEl.textContent = String(new Date().getFullYear());
