@@ -164,7 +164,7 @@ export const LEVELS = [
   },
   {
     id: "level5",
-    title: "Niveau 5 : Image :Mot (facile)",
+    title: "Niveau 5 : Image : Mot (facile)",
     subtitle: "Associer image claire :mot simple.",
     hint: "À compléter : items [{pairId, word, image, audio?}]",
     mode: "image_word",
@@ -176,7 +176,7 @@ export const LEVELS = [
   },
   {
     id: "level6",
-    title: "Niveau 6 : Image :Mot (difficile)",
+    title: "Niveau 6 : Image : Mot (difficile)",
     subtitle: "Mots plus difficiles (graphies proches, pièges…).",
     hint: "À compléter : items [{pairId, word, image, audio?}]",
     mode: "image_word",
