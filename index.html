@@ -1,9 +1,13 @@
 <!doctype html>
 <html lang="fr">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Jeu de memory éducatif pour travailler la reconnaissance des majuscules et minuscules, des syllabes et l'association image-mot.">
   <title>Parcours Memory</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800;900&display=swap">
   <link rel="stylesheet" href="./css/app.css" />
 </head>
 <body>
@@ -12,7 +16,7 @@
       <div class="brand">
         <div class="logo">🧩</div>
         <div class="brandtxt">
-          <div class="h">Parcours Memory</div>
+          <h2 class="h">Parcours Memory</h2>
           <div class="p">CAP – MAJ/min, syllabes, image↔mot</div>
         </div>
       </div>
@@ -33,12 +37,12 @@
         </div>
 
         <div class="btnRow">
-          <button id="newGameBtn">🔄 Nouvelle partie</button>
-          <button id="revealBtn" title="Aperçu 2 secondes">👀 Aperçu</button>
+          <button id="newGameBtn" type="button">🔄 Nouvelle partie</button>
+          <button id="revealBtn" type="button" title="Aperçu 2 secondes">👀 Aperçu</button>
         </div>
 
         <div class="btnRow">
-          <button id="muteBtn">🔊 Son : ON</button>
+          <button id="muteBtn" type="button">🔊 Son : ON</button>
         </div>
 
         <div class="stats">
