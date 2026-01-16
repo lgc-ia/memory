@@ -1,0 +1,17 @@
+{
+  "@context": "https://schema.org",
+  "@type": [
+    "WebApplication",
+    "VideoGame"
+  ],
+  "name": "Parcours Memory",
+  "description": "Jeu de memory educatif pour travailler la reconnaissance des majuscules et minuscules, des syllabes et l'association image-mot.",
+  "applicationCategory": "GameApplication",
+  "operatingSystem": "Any",
+  "inLanguage": "fr",
+  "author": {
+    "@type": "Organization",
+    "name": "LGC"
+  },
+  "url": "http://localhost/"
+}
